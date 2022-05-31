@@ -1,0 +1,22 @@
+{
+  "name": "assignment_2",
+  "version": "1.0.0",
+  "description": "An Express.js app with routes",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node main.js"
+  },
+  "author": "Jon Wexler",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.6",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-validator": "^6.14.0",
+    "http-status-codes": "^1.4.0",
+    "mocha": "^9.2.2"
+  }
+}
